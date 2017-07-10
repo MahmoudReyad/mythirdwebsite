@@ -1,0 +1,335 @@
+/* Start Rules */
+*{
+	padding: 0;
+	margin:0;
+}
+.container {
+	width:1170px;
+	margin: auto;
+}
+.clearfix {
+	clear: both;
+}
+.clearleft {
+	clear: left;
+}
+/* End Rules */
+/* Start Header And Nav */
+.mainheader{
+	background-image: url('../images/header.png');
+	background-size: cover;
+	color:#fff;
+	height: 600px;
+	overflow: hidden;
+}
+.mainheader .container nav {
+	padding: 80px 0;
+	overflow: hidden;
+}
+.mainheader .container nav ul {
+	list-style-type: none;
+	float:right;
+	overflow: hidden;
+}
+.mainheader .container nav ul li{
+	float: left;
+	padding: 10px;
+	text-transform: uppercase;
+	font-family: Arial;
+}
+.mainheader .container nav h3{
+	font-size: 38px;
+	text-transform: uppercase;
+}
+.mainheader .container nav h3 span {
+	background-color: #00bd9b;
+	border-radius: 50%;
+	padding: 8px 8px 8px 10px;
+	text-align: right;
+}
+.mainheader .container .content{
+	text-align: center;
+}
+.mainheader .container .content h2{
+	font-size: 45px;
+	margin-bottom: 25px;
+}
+.mainheader .container .content p {
+	line-height: 1.5;
+	word-wrap: break-word;
+	margin-bottom: 60px;
+	color: #909090;
+}
+.mainheader .container .content button{
+	background-color: #fd4c46;
+	padding: 25px 45px;
+	color: #fff;
+	border: none;
+	border-radius:10px;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+/* End Header And Nav */
+/* Start Introduction */
+.introduction .container {
+	text-align: center;
+	padding: 50px 0 100px 0;
+}
+.introduction .container h3{
+	margin:70px 0 40px 0;
+	font-size:40px;
+	color: #484848;
+	word-spacing: 10px;
+}
+.introduction .container .line {
+	color: #00bd9b;
+	width: 150px;
+	border: 2px solid  #00bd9b;
+	display: inline-block;
+	border-radius: 10px;
+}
+.introduction .container p{
+	line-height: 1.5;
+	color: #787878; 
+	margin: 40px 0;
+}
+.introduction .container button{
+	background-color: #00bd9b;
+	padding: 15px 30px;
+	color: #fff;
+	border: none;
+	border-radius:10px;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+/* End Introduction  */
+/* Start About us */
+.aboutus{
+	background-color: #646362;
+	padding: 60px 0;
+	overflow: hidden;
+}
+.aboutus .container .header {
+	width:35%;
+	float: left;
+	color: #fff;
+}
+.aboutus .container .header h2{
+	font-size: 40px;
+	word-spacing: 10px;
+	margin-bottom: 30px;
+}
+.aboutus .container .header .line{
+	color: #fff;
+	border: 2px solid #fff;
+	width: 150px;
+}
+.aboutus .container .para{
+	width: 65%;
+	float: left;
+	color: #b7b6b6;
+}
+.aboutus .container .para p {
+	line-height: 1.5;
+
+}
+/* End About us */
+
+
+/* Start Portfolio */ 
+.portfolio {
+	overflow: hidden;
+	position: relative;
+	padding: 80px 0;
+}
+.portfolio .container .headernav h3 {
+	float: left;
+	margin-top: 10px;
+	font-size: 35px;
+	border-bottom: 2px solid #000;
+	
+}
+.portfolio .container .headernav .line {
+	top: 40px;
+	background-color: #000;
+	border: 2px solid #000;
+	float: left;
+
+}
+.portfolio .container .headernav nav {
+	float: right;
+}
+.portfolio .container .headernav nav ul {
+	list-style-type: none;
+	float: right;
+	overflow: hidden;
+	margin-top: 10px;
+}
+.portfolio .container .headernav nav ul li {
+	display: inline-block;
+	padding: 5px;
+}
+.portfolio .container .headernav nav ul li:hover{
+	background-color: #00bd9b;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.portfolio .container .gallery {
+	padding-top: 70px;
+	overflow: hidden;
+}
+.portfolio .container .gallery  img {
+	margin:0 35px 20px 0;
+}
+.portfolio .container .gallery  img:nth-child(4) , .portfolio .container .gallery  img:nth-child(8){
+	margin-right: 0;
+}
+
+/* End Portfolio */
+/* start Feedback  */ 
+.feedback {
+	overflow: hidden;
+	background-color: #00bd9b;
+	padding: 40px;
+	text-align: center;
+	position: relative;
+}
+
+/* End Feedback    */
+/* Start Our Team */ 
+.ourteam{
+	overflow: hidden;
+	text-align: center;
+	padding: 80px 0;
+
+}
+.ourteam .container .h h3 {
+	font-size: 40px;
+	border-bottom: 2px solid #000;
+	float: left;
+	margin-bottom: 80px;
+}
+
+.ourteam .container .gallery div{
+	width: 25%;
+	float: left;
+}
+.ourteam .container .gallery div img {
+	margin-right: ;
+}
+/* End Our Team   */
+/*  Start Flex */ 
+.flex {
+	text-align: center;
+	background-image: url('../images/flex.png');
+	padding: 120px 0 100px 0;
+	background-size: cover;
+	color: #fff;
+}
+.flex h3{
+	font-size: 35px;
+	margin-bottom: 50px;
+}
+.flex button {
+	background-color: #fd4c46;
+	padding: 15px 30px;
+	color: #fff;
+	border: none;
+	border-radius:10px;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+/* End flex    */
+/* Start Our Services */
+.ourservices{
+	overflow:hidden;
+	text-align: center;
+	padding: 80px 0
+}
+.ourservices .container h2 {
+	font-size: 40px;
+	border-bottom: 2px solid #000;
+	margin-bottom: 80px;
+	float: left;
+}
+.ourservices .container section  {
+	float: left;
+	width: 33.3333%;
+	margin-bottom: 35px;
+}
+
+/* End Our Services */
+/* Start Normal Para */ 
+.normalpara{
+	background-color: #55514c;
+	color: #fff;
+	padding: 70px 0;
+	text-align: center;
+}
+.normalpara h2 {
+	font-size: 40px;
+}
+/* End Normal Para  */
+/* Start Contact */
+.contact {
+	overflow: hidden;
+	padding: 80px 0;
+}
+.contact h2 {
+	font-size: 40px;
+	border-bottom: 2px solid #000;
+	margin-bottom: 80px;
+	float: left;
+}
+.contact .container .information ,.contact .container .form {
+	width: 50%;
+	float: left;
+}
+.contact .container .information h5 {
+	font-weight: bolder;
+	margin: 10px 0 30px 0;
+	font-size: 20px;
+
+}
+
+.contact .container .information p{
+	margin-bottom: 20px;
+}
+.contact .container .information p:last-of-type{
+	margin-bottom: : 40px;
+	display: inline-block;
+	margin-right: 25px;
+}
+.contact .container .form input[type="text"] ,
+.contact .container .form input[type="email"] ,
+.contact .container .form input[type="name"] {
+	border:none;
+	padding: 20px 50px ;
+	border-bottom: 1px solid #e0e0e0 ;
+	display: block;
+	width: 80%;
+	margin-bottom: 30px ;
+}
+.contact .container .form input[type="submit"]{
+	padding: 15px 50px;
+	border: none;
+	border-radius: 15px ;
+	background-color: #fd4c46;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+} 
+/* End Contact   */
+/* Start Footer  */
+footer{
+	padding: 25px 0;
+	background-color: #55514c;
+	color: #fff;
+	overflow: hidden;
+}
+footer i {
+	float: right;
+}
+/* End footer   */
